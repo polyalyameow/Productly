@@ -1,27 +1,30 @@
 *{
     box-sizing: border-box;
-    width: 1400px;
+    width: 1200px;
     background-color: white;
 }
 html{
     margin: 0 auto;
 }
+
 body{
-    width: 100%;
-    display: flex;
+    display:flex;
+    flex-direction: column;
     justify-content: center;
-    /*border: 2px solid green;*/
-   
-   
+    align-content: center;
+   /* border: 2px solid green;*/
 }
+
+/*HEADER*/
 
 .nav{
     width: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 47px;
     padding: 0;
     align-items: center;
     /*border: 1px solid fuchsia*/
@@ -123,4 +126,109 @@ body{
     line-height: 24px;
     border: none;
     color: white;
+}
+
+/*THE DESIGN THINKING SUPERPOWERS*/
+.main{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+   /* border: 1px slateblue solid;*/
+    
+}
+
+.main__obj{
+    width: 100%;
+   /* border: 2px solid orange;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.main__text{
+    /*border: 2px solid khaki;*/
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+    width: 100%;
+}
+
+.main__text-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    color: #2F281E;
+    width: 100%;
+  /*  border: 2px teal solid;*/
+    
+   
+}
+
+.main__text-content{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #544837; 
+    width: 65%;
+   /* border: 2px darkkhaki solid;*/
+}
+
+.main__btn{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+   /* border: 2px yellowgreen solid;*/
+    justify-content: space-between;
+ 
+}
+
+.btn-start{
+    width: 175px;
+    height: 53px;
+    background-color: #FF9900;
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    /*border: 1px sienna solid;*/
+}
+.btn-video{
+    width: 170px;
+    height: 23px;
+    color: #FF9900;
+    align-self:center;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.btn-video-link{
+    color: #FF9900;
+
+}
+
+.main__pic{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main__pic-pic{
+    width: 605px;
+    height: 496px;
+    
 }
