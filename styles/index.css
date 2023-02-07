@@ -592,7 +592,7 @@ hr{
     align-items: flex-end;
    /* border: 2px solid rebeccapurple; */
     width: auto;
-    gap: 20px;
+    gap: 10px;
 }
 
 .footer__info-field{
